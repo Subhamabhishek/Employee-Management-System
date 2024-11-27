@@ -15,3 +15,7 @@ body{
 #allTask::-webkit-scrollbar{
   display: none;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+}
