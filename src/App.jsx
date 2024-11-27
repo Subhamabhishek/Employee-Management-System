@@ -49,6 +49,9 @@ const handleLogin = (email, password) =>{
 
 return (
     <div>   
+      <h2>for admin use - admin@example.com, admin123 </h2> 
+      <h2> for employee use -employee1@example.com, pass123</h2> 
+      
       {!user  ?  
               (<Login handleLogin={handleLogin}/> )
               : user === 'admin' ? 
